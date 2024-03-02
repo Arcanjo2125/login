@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    
+    <link rel="stylesheet" href="../css/lc.css">
+</head>
+<body>
+
+    <div id="login-panel" class="form-panel">
+        <section>
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+            <label class="form-label" >Email:</label><br>
+
+            <input type="email"placeholder="email"><br>
+
+            <label class="form-label">Senha:</label><br>
+
+            <input type="password" id="login-password" name="password" required><br>
+
+            <input type="submit" value="Login"><br>
+
+        </div>
+        </form>
+        <p>Não tem uma conta?<a id="register-link"><b>Registre-se aqui</b></a></p>
+    </section>
+    </div>
+
+    <div id="register-panel" class="form-panel">
+        <section>
+        <h2>Cadastro</h2>
+        <form>
+            <div class="form-group">
+            <label class="form-label" for="register-name">Nome:</label><br>
+
+            <input type="text" id="register-name" name="name" required><br>
+
+            <label class="form-label" for="register-email">Email:</label><br>
+
+            <input type="email" id="register-email" name="email" required><br>
+
+            <label class="form-label" for="register-password">Senha:</label><br>
+
+            <input type="password" id="register-password" name="password" required><br>
+
+            <input type="submit" value="Register"><br>
+        </div>
+        </form>
+        <p>Já tem uma conta? <a id="login-link"><b>Entre aqui</b></a></p>
+    </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/lc.js"></script>
+</body>
+</html>
